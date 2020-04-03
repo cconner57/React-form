@@ -29,7 +29,7 @@ function App() {
 						button='Next'
 						nextStep={nextStep}
 						name='Name'
-						state={state.name}
+						state={state.Name}
 						handleChange={handleChange}
 					/>
 				</div>
@@ -41,7 +41,7 @@ function App() {
 						button='Next'
 						nextStep={nextStep}
 						name='Email'
-						state={state.email}
+						state={state.Email}
 						handleChange={handleChange}
 					/>
 				</div>
@@ -53,7 +53,7 @@ function App() {
 						button='Submit'
 						nextStep={nextStep}
 						name='City'
-						state={state.city}
+						state={state.City}
 						handleChange={handleChange}
 					/>
 				</div>
